@@ -1,0 +1,19 @@
+{
+	"auth.unauth": "Unauthorized",
+	"auth.invalid": "Invalid token",
+	"auth.exists": "Email already exists",
+	"auth.invalid_creds": "Invalid credentials",
+	"book.invalid_input": "Invalid input: title, author, category, and totalPages are required, and totalPages must be a number.",
+	"book.add_err": "Error adding the book",
+	"book.not_found": "Book not found",
+	"book.invalid_pages": "Invalid input: totalPages must be a number.",
+	"book.invalid_read": "Invalid input: pagesRead must be a number.",
+	"book.invalid_status": "Invalid input: isCompleted must be a boolean.",
+	"book.update_err": "Error updating the book",
+	"book.delete_err": "Error deleting the book",
+	"book.complete_err": "Error marking the book as completed",
+    "auth.missing_fields": "Email and password are required.",
+    "auth.invalid_email": "The email format is invalid.",
+    "auth.weak_password": "The password must be at least 6 characters long."
+	
+}

@@ -1,0 +1,18 @@
+{
+    "auth.unauth": "Non autorisé",
+    "auth.invalid": "Jeton invalide",
+    "auth.exists": "L'email existe déjà",
+    "auth.invalid_creds": "Identifiants invalides",
+    "book.invalid_input": "Entrée invalide : titre, auteur, catégorie et totalPages sont requis, et totalPages doit être un nombre.",
+    "book.add_err": "Erreur lors de l'ajout du livre",
+    "book.not_found": "Livre non trouvé",
+    "book.invalid_pages": "Entrée invalide : totalPages doit être un nombre.",
+    "book.invalid_read": "Entrée invalide : pagesRead doit être un nombre.",
+    "book.invalid_status": "Entrée invalide : isCompleted doit être un booléen.",
+    "book.update_err": "Erreur lors de la mise à jour du livre",
+    "book.delete_err": "Erreur lors de la suppression du livre",
+    "book.complete_err": "Erreur lors du marquage du livre comme terminé",
+    "auth.missing_fields": "L'email et le mot de passe sont requis.",
+    "auth.invalid_email": "Le format de l'email est invalide.",
+    "auth.weak_password": "Le mot de passe doit contenir au moins 6 caractères."
+}

@@ -1,0 +1,30 @@
+{
+  "points": {
+    "shortBook": {"minPagesRead": 0, "maxPagesRead": 150, "points": 10},
+    "mediumBook": {"minPagesRead": 151, "maxPagesRead": 300, "points": 20},
+    "longBook": {"minPagesRead": 301, "points": 30}
+  },
+  "levels": [
+    { "name": "Débutant", "minPoints": 0, "maxPoints": 50 },
+    { "name": "Amateur", "minPoints": 51, "maxPoints": 150 },
+    { "name": "Confirmé", "minPoints": 151, "maxPoints": 300 },
+    { "name": "Expert", "minPoints": 301 }
+  ],
+  "badges": {
+    "quantity": [
+      { "title": "Première Lecture", "criteria": "1 livre terminé", "quantity": "1" },
+      { "title": "Lecteur·trice assidu·e", "criteria": "5 livres terminés", "quantity": "5"  },
+      { "title": "Bibliophile", "criteria": "20 livres terminés", "quantity": "20"  }
+    ],
+    "genres": [
+      { "title": "Explorer les genres", "criteria": "3 genres différents lus", "quantity": "3"  },
+      { "title": "Aventurier·ère littéraire", "criteria": "5 genres différents lus", "quantity": "5"  }
+    ],
+    "specific": [
+      {"id": "1", "title": "Lecture rapide", "criteria": "5 livres en moins de 2 semaines" },
+      {"id": "2", "title": "Marathon de lecture", "criteria": "1 livre de plus de 300 pages" },
+      {"id": "3", "title": "10 livres dans un mois", "criteria": "10 livres terminés en un mois" },
+      {"id": "4", "title": "30 livres dans l’année", "criteria": "30 livres terminés en une année" }
+    ]
+  }
+}
